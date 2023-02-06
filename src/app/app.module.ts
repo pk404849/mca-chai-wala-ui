@@ -7,9 +7,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './component/header/header.component';
 import { BannerComponent } from './component/banner/banner.component';
 import { AboutComponent } from './component/about/about.component';
-import { ServicesComponent } from './component/services/services.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
+import { ProductServiceComponent } from './component/product-service/product-service.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +17,9 @@ import { HomeComponent } from './component/home/home.component';
     HeaderComponent,
     BannerComponent,
     AboutComponent,
-    ServicesComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    ProductServiceComponent
   ],
   imports: [
     BrowserModule,
